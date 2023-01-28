@@ -1,0 +1,88 @@
+#root {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  width: 40%;
+  background-color: #faebd7;
+  padding: 10px;
+}
+
+.right {
+  width: 60%;
+  background-color: #dcdcfa;
+  padding: 15px;
+}
+
+.title {
+  color: rgb(15, 65, 65);
+  font-size: 42px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.button {
+  background-color: #faebd7;
+  font-size: 18px;
+  color: #9494b1;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #9494b1;
+  width: 100px;
+  height: 34px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 450px;
+  margin-bottom: 35px;
+}
+
+.book-title {
+  font-size: 26px;
+  margin-right: auto;
+}
+
+.btn-box {
+  display: flex;
+  align-items: center;
+}
+
+.btn-delete {
+  background-color: #faebd7;
+  color: rgb(218, 47, 12);
+  height: 25px;
+  width: 55px;
+  /* margin-right: 15px; */
+  border-radius: 3px;
+  border: 2px solid rgb(218, 47, 12);
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #faebd7;
+  color: #949463;
+  height: 25px;
+  width: 55px;
+  margin-left: 15px;
+
+  border-radius: 3px;
+  border: 2px solid #949463;
+  cursor: pointer;
+}
+
+.preview-box {
+  padding: 10px;
+}
+
+.preview-title {
+  font-size: 34px;
+  color: darkslategray;
+}
